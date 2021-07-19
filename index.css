@@ -1,0 +1,36 @@
+body{
+    background-color: #D7FDF0;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button{
+    background-color: #B2FFD6;
+    width: 30%;
+    height: 30%;
+    margin: 1.5px 1.5px 1.5px 1.5px;
+    border: solid 3px black;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size: 200%;
+}
+
+.button:hover{
+    width: 33%;
+    height: 33%;
+    border-radius: 22px;
+}
